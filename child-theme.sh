@@ -61,12 +61,6 @@ cat <<EOL > "$child_theme_directory/functions.js"
 console.log('Hello from $child_theme functions.js!');
 EOL
 
-# Create style.css file for the child theme
-cat <<EOL > "$child_theme_directory/style.css"
-/* Your custom CSS styles go here */
-body {
-    background-color: #f0f0f0;
-}
-EOL
 
 echo "Child theme created successfully at $child_theme_directory"
+
